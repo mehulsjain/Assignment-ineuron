@@ -1,0 +1,62 @@
+.flex-container{
+    width: 94%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 30px;
+    align-items: center;
+    font-size:xx-large;
+    color: aliceblue;
+    background-color: rgb(190, 248, 248);
+}
+.header{
+    width: 97%;
+    height: 12%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(90, 199, 193);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width:97%;
+    margin-top: 2%;
+    height: 80%;
+}
+.aside{
+    flex-grow: 2;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(75, 233, 75);
+}
+.article{
+    background-color: orange;
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
+    margin-top: 3%;
+    height: 37%;
+}
+.image{
+    background-color: rgb(255, 196, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
